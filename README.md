@@ -5,26 +5,48 @@ The Simple Online Quiz Application is designed to provide users with a platform 
 2) Eclipse IDE
 3) Apache Server
 4) HTML/CSS/JavaScript for frontend
+# Admin Credential:
+  - Default Username: admin
+  - Default Password: admin
+
+# Student Credential:
+  - You can change student credential from resources/databases/users.json
+  - Default Username: shriya
+  - Default Password: shriya
+
+# Questions
+- Question are located in resources/databases/questions.json
+
+# Marks
+- Marks are located in resources/databases/users.json
+
 # Implementation
 1) User Registration and Login
-<br> *Registration: <br>
-<br> Users fill out a registration form. <br> 
-<br> Data is validated and stored in the Users table. <br> 
-<br> Passwords are hashed for security. <br> 
-<br> *Login: <br> 
-<br> Users enter their credentials. <br> 
-<br> Credentials are verified against the database. <br> 
-<br> Successful login redirects users to the dashboard. <br> 
+   
+<br> Registration: <br>
+  - Users fill out a registration form.
+  - Data is validated and stored in the Users table. 
+  - Passwords are hashed for security.
+ 
+<br> Login: <br> 
+  - Users enter their credentials. 
+  - Credentials are verified against the database.  
+  - Successful login redirects users to the dashboard.
+     
 2) Quiz and Question Management
-<br> *Admin Interface: <br> 
-<br> Admins can create, update, and delete quizzes. <br> 
-<br> Admins can add, edit, and remove questions for each quiz. <br> 
+   
+<br> Admin Interface: <br> 
+  - Admins can create, update, and delete quizzes. 
+  - Admins can add, edit, and remove questions for each quiz.
+    
 3) Quiz Taking
-<br> *User Interface:
-<br> Users select a quiz to take. <br> 
-<br> Questions are fetched from the database and displayed.<br> 
-<br> Users submit answers, which are immediately evaluated.<br> 
-<br> Results are stored in the Results table and displayed to the user.<br>
+   
+<br> User Interface:  <br>
+  - Users select a quiz to take. 
+  - Questions are fetched from the database and displayed.
+  - Users submit answers, which are immediately evaluated. 
+  - Results are stored in the Results table and displayed to the user.
+  
 # Screenshots
 ![image](https://github.com/Shriyapd/Java-Quiz/assets/171423866/c36ab068-3944-48dd-a2ed-17a809a018ee)
 ![image](https://github.com/Shriyapd/Java-Quiz/assets/171423866/2581c9ba-af7e-47c3-a916-8eff965d09a0)
